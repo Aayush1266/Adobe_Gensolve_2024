@@ -24,3 +24,8 @@ This repository contains code to process and regularize 2D paths from input data
 * regularize_rectangle(curve): Regularizes a rectangle.
 * regularize_polygon(curve): Regularizes a polygon.
 * regularize_to_simpler_shape(curve): Smooths and rechecks the curve for simpler shapes.
+
+### Modules
+* Numpy
+* MatplotLib
+* Scipy
