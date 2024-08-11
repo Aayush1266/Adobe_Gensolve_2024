@@ -4,10 +4,10 @@ This repository contains code to process and regularize 2D paths from input data
 ### Features:
 * Path Extraction: Extracts paths and segments from a CSV file containing path data.
 * Shape Regularization: Identifies and regularizes basic geometric shapes, such as:
-          1 Straight Lines
-          2 Circles
-          3 Rectangles
-          4 Any Polygons
+          * Straight Lines
+          * Circles
+          * Rectangles
+          * Any Polygons
 * Simplification: If the shape does not match a predefined category, the curve is smoothed and then rechecked for simpler shapes.
 * Visualization: Plots the regularized paths for easy visualization.
 
