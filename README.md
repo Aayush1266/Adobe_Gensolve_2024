@@ -11,7 +11,7 @@ Polygons
 Simplification: If the shape does not match a predefined category, the curve is smoothed and then rechecked for simpler shapes.
 Visualization: Plots the regularized paths for easy visualization.
 
-Functions
+Functions:
 extract_paths(np_data): Extracts paths and segments from the input data.
 plot_paths(paths_XYs, title): Plots the regularized paths.
 regularize_shapes(paths_XYs): Regularizes the shapes within each path.
