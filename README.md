@@ -1,8 +1,9 @@
-Path Regularization and Visualization: 
+Path Regularization and Visualization:
 This repository contains code to process and regularize 2D paths from input data. The primary purpose of the project is to extract paths from a CSV file, identify basic geometric shapes (such as lines, circles, rectangles, and polygons) within those paths, and regularize them into their simplest form. The resulting paths are then plotted for visualization.
 
 Features:
 Path Extraction: Extracts paths and segments from a CSV file containing path data.
+
 Shape Regularization: Identifies and regularizes basic geometric shapes, such as:
 Straight Lines
 Circles
