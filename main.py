@@ -120,11 +120,11 @@ def regularize_to_simpler_shape(curve):
     return smooth_curve
 
 
-path_frag0 = './problems/frag0.csv'
+path_frag0 = 'frag0.csv'
 data_frag0 = np.genfromtxt(path_frag0, delimiter=',')
 
 paths_frag0 = extract_paths(data_frag0)
 regularized_paths_frag0 = regularize_shapes(paths_frag0)
-output_csv_path = './problems/regularized_frag0.csv'
+output_csv_path = 'regularized_frag0.csv'
 
 plot_paths(regularized_paths_frag0, title="Regularized Paths - frag0.csv")
